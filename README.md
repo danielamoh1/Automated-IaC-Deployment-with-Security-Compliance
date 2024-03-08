@@ -31,25 +31,30 @@ mkdir -p terraform ansible openscap .github/workflows
 touch README.md terraform/{main.tf,variables.tf,outputs.tf} ansible/playbooks/main.yml
 ```
 [] **Terraform Implementation**
+
 Define your AWS infrastructure in terraform/main.tf.
 Specify any necessary variables in terraform/variables.tf.
 Define output variables in terraform/outputs.tf.
 
 [] **Ansible Configuration**
+
 Create Ansible playbooks in ansible/playbooks/.
 Define roles for web, app, and database configurations in ansible/roles/.
 
 [] **Security Compliance with OpenSCAP**
+
 Add OpenSCAP scan definitions in the openscap/ directory.
 Integrate OpenSCAP scans into the CI/CD pipeline for automated compliance verification.
 
 [] **CI/CD Pipeline Configuration**
+
 Configure GitHub Actions in .github/workflows/main.yml to automate:
 Terraform deployment.
 Ansible configurations.
 OpenSCAP compliance scans.
 
 **Documentation**
+
 Document the architecture, setup, and instructions in README.md.
 This project is not only a demonstration of your technical skills but also your commitment to security and compliance in infrastructure deployment.
 
