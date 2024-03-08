@@ -1,0 +1,6 @@
+- name: Install dependencies
+  apt:
+    name:
+      - nodejs
+      - npm
+    state: latest
