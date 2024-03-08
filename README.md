@@ -27,7 +27,6 @@ This project demonstrates the use of Terraform for Infrastructure as Code (IaC),
 
 ######### Create the project structure. ###############
 ```bash
-Copy code
 mkdir -p terraform ansible openscap .github/workflows
 touch README.md terraform/{main.tf,variables.tf,outputs.tf} ansible/playbooks/main.yml
 ```
