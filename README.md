@@ -1,5 +1,4 @@
 # Automated Infrastructure as Code (IaC) Deployment with Security Compliance
-![Terraform](https://ibb.co/VSwvGR0)
 
 
 This project demonstrates the use of Terraform for Infrastructure as Code (IaC), Ansible for configuration management, and OpenSCAP for security compliance, integrated into a CI/CD pipeline. Showcasing automated, secure infrastructure deployment on GitHub.
