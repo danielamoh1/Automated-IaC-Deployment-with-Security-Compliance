@@ -54,10 +54,3 @@ Configure GitHub Actions in .github/workflows/main.yml to automate:
 Terraform deployment.
 Ansible configurations.
 OpenSCAP compliance scans.
-
-**Documentation**
-
-Document the architecture, setup, and instructions in README.md.
-This project is not only a demonstration of your technical skills but also your commitment to security and compliance in infrastructure deployment.
-
-[] Ensure each command and configuration step is thoroughly tested and documented. 
